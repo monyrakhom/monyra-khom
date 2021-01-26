@@ -2,22 +2,70 @@ body{
     margin:0px;
     padding:0px;
     font-family: sans-serif;
-    background-color:#607d8b;
+    background-color:#cfd8dc;
+    
 }
 ul{
     list-style: none;
     margin:0px;
     padding: 10px;
-    background: rgb(0,153,153);
+    background:#64b5f6;
     overflow:hidden;
+    border-radius: 10px;
+    
 }
 li{
     float: right;
 }
 li a{
     display:inline-block ;
-    color: white;
+    color:white;
     text-align: center;
     padding:10px;
     text-decoration: none;
 }
+.addleft{
+    float:left;
+    /* background: #f0bd7b; */
+    border-radius: 10px;
+
+      
+}
+.li,a:hover{
+    background-color:#d8a842;
+    border-radius: 10px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column1 {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    height: 5px;
+  }
+  img{
+      width: 300%;
+      margin-left: 20%;
+
+  }
+  .column2 {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    margin-right: 10%;
+    /* height: 0px; */
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row{
+      width: 80%;
+      height: 30vh;
+      top:30%;
+
+  }
+ 
